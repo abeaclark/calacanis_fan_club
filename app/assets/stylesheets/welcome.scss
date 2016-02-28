@@ -1,0 +1,54 @@
+.container {
+  width: 100%;
+  max-width: 700px;
+  padding: 3%;
+}
+
+body {
+  background-color: #100c11;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.jason {
+  width: 70%;
+  min-width: 200px;
+  max-width: 500px;
+  border-radius: 100%;
+  border: gray 4px solid;
+}
+
+.like {
+  width: 200px;
+}
+
+.photo-holder {
+  width: 100%;
+  height: 50vh;
+  background-color: white;
+  border-top-left-radius: 7px;
+border-top-right-radius: 7px;
+}
+
+
+
+.like-holder {
+  width: 100%;
+  height: 30vh;
+  background-color: #f0592a;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.like-count {
+  text-align: center;
+  vertical-align: center;
+  font-size: 40px;
+  padding: 10px;
+  background-color: #3fb1c1;
+  color: white;
+}
