@@ -4,12 +4,12 @@
       <div class="photo-holder flex">
         <img class="jason" src="/jason.png">
       </div>
-      <div class="like-count">
-        120,000
+      <div id="like-count">
+        <%= @count.number %>
       </div>
       <div class="like-holder flex">
         <a href="#">
-          <img class="like" src="/like.png">
+          <img id="like" src="/like.png">
         </a>
       </div>
     </div>
@@ -25,3 +25,17 @@
   <style>
 video::-webkit-media-controls {display:none !important;}
 </style>
+
+<div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+   <div class="vertical-alignment-helper">
+      <div class="modal-dialog vertical-align-center">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <div class="modal-body">
+              <span id = "giphyme"></span>
+          </div>
+        </div>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
