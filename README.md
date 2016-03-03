@@ -2,4 +2,4 @@
 
 It was submitted as a funny-name contestant at Launch Hackathon 2016.
 
-[calacanisfan.club](http://www.calacanisfan.club/)http://www.calacanisfan.club/
+[calacanisfan.club](http://www.calacanisfan.club/)
